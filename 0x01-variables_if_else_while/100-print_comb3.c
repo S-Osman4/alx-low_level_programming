@@ -9,18 +9,18 @@ int main(void)
 	int i, e;
 
 	i = 48;
-	e = 48;
+	j = 48;
 
-	while (e < 58)
+	while (j < 58)
 	{
 		i = 48;
 		while (i < 58)
 		{
-			if (e != i && e < i)
+			if (j != i && j < i)
 			{
-				putchar(e);
+				putchar(j);
 				putchar(i);
-				if (i == 57 && e == 56)
+				if (i == 57 && j == 56)
 				{
 					break;
 				}
