@@ -1,18 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
 /**
-* main - generates random valid passwords
-* Return: Always 0
+* main - generate random valid passwords over 101-crackme
+* Return: 
+* Return: 0
 */
 int main(void)
 {
-	srand((unsigned int)(time(NULL)));
+	int rndm, counter, checksum;
 
-	int i = 0;
-	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
-	for ( i = 0; i <=12; i++)
+	srand(time(NULL));
+
+	for (counter = 0, checksum = 2772; checksum > 122; counter++)
 	{
-		printf("%c", characters[rand() % (sizeof characters - 1)]);
+		rndm = (rand() % 100);
+		printf("%c", rndm);
+		checksum -= rndm;
 	}
+	printf("%c", checksum);
+	return (0);
 }
