@@ -10,3 +10,15 @@ int _atoi(char *s)
 	unsigned int num = 0;
 
 	do {
+#include "main.h"
+/**
+* _atoi - Convert a string to integer.
+* @s: char array string
+* Description: Number in the string can be preceded by an infinite
+* number of characters.
+* Return: first integer found in string
+*/
+int _atoi(char *s)
+{
+	return 0;
+}
