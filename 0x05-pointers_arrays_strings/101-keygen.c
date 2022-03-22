@@ -7,15 +7,25 @@
 */
 int main(void)
 {
-	int sum;
-	char c;
+char a[100];
+	int r, n, i;
 
-	srand(time(NULL));
-	while (sum <= 2645)
+	n = 0;
+	i = 0;
+	srand(time(0));
+	while (n < 2645)
 	{
-		c = rand() % 128;
-		sum += c;
+		r = rand() % 122;
+		if (r > 32)
+		{
+			a[i++] = r;
+			n += r;
+		}
+	
 	}
-	putchar(2772 - sum);
+	a[i++] = (2772 - n);
+	a[i] = '\0';
+	printf("%s", a);
+
 	return (0);
 }
