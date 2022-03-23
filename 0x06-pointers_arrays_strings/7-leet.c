@@ -1,26 +1,27 @@
 #include "main.h"
 /**
-* leet - encode a string into 1337
-* @s: string
-* Return: encoded string `s`
+* leet - replace letters with numbers
+* @s: pointer to an array of words
+* Return: s
 */
 
 char *leet(char *s)
 {
-	int i;
+	int a, b;
 
-	for (i = 0; s[i] != '\0'; i++)
+	char code[] = "aeotl";
+	char code1[] = "AEOTL";
+	char res[] = "43071";
+
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		while (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		while (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		while (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		while (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		while (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		for (b = 0; code[b] != '\0' && code1[b] != '\0'; b++)
+		{
+			if (s[a] == code[b] || s[a] == code1[b])
+			{
+				s[a] = res[b];
+			}
+		}
 	}
 	return (s);
 }
