@@ -3,6 +3,7 @@
 * *_memset -  fills memory with a constant byte
 * @s: memory area.
 * @n: bytes filled.
+* @b: the contant byte for filling
 * Return: s
 */
 char *_memset(char *s, char b, unsigned int n)
@@ -14,4 +15,4 @@ char *_memset(char *s, char b, unsigned int n)
 
 	return (s);
 }
-/*  File: memset.c*/
+
