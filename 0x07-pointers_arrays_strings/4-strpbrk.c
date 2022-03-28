@@ -5,20 +5,19 @@
 * @accept: bytes composing prefix
 * Return: integer length of substring
 */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i = 0, j, b = 0;
+	int i, j;
 
-	for (; s[i] && s[i] != ' '; i++)
+	i = 0;
+	while (s[i])
 	{
-		j = 0;
-
-		for (; accept[j]; j++)
+		for (j = 0; accept[j]; j++)
 		{
-			if (accept[j] == s[i])
-				b++;
+			if (s[i] == accept[j])
+				return (s + i);
 		}
+		i++;
 	}
-
-	return (b);
+	return (NULL);
 }
