@@ -1,5 +1,6 @@
 ## More arrays, pointers and strings
 
+Mandatory tasks
 |  Files |  Descripton |
 |:-:|---|
 |  [0-memset.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/0-memset.c) | Function that fills memory with a constant byte.  |
@@ -10,3 +11,10 @@
 |  [5-strstr.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/5-strstr.c) | Function that locates a substring.|
 | [7-print_chessboard.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/7-print_chessboard.c) | Function that prints the chessboard. |
 | [8-print_diagsums.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/8-print_diagsums.c) | Function that prints the sum of the two diagonals of a square matrix of integers. |
+
+Optional Tasks
+|  Files |  Descripton |
+|:-:|---|
+|  100-set_string.c |  Function that sets the value of a pointer to a char. |
+|  101-crackme_password |  File that contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable. |
+
