@@ -2,30 +2,34 @@
 #include <stdio.h>
 
 /**
-* _sqrt - compute square root of n number
-* @n: number to compute square
-* @i: iterator to search if is divisible by i and result is i and mod is 0
-* Return: square of -1 if not have square exact
+* calc - helps to calculate the square root
+*@n: number
+*@i: increment
+*Return: the square root
 */
-int _sqrt(int n, int i)
+int calc(int n, int i)
 {
-	if (n == i) /* base case not found sqrt */
-		return (-1);
-	if (n / i == i && n % i == 0) /* base case success to find sqrt */
-		/* 1024 / 32 == 32 && n % 32 == 0 */
+	if ((i * i) == n)
 		return (i);
-	return (_sqrt(n, ++i)); /* recursion */
+	else if ((i * i) < n)
+		return (calc(n, i + 1));
+	else
+		return (-1);
 }
+
 /**
- * _sqrt_recursion - compute sqrt of n with recursion
- * @n: number to compute square root
- * Return: sqrt from n number
- */
+* _sqrt_recursion - Calculate the natural square root of a number
+*@n: number to calculate a square root
+*Return: the square root but if the number don't have it -1
+*/
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	if (n == 1)
+	if (n == 0)
+		return (0);
+	else if (n == 1)
 		return (1);
-	return  (_sqrt(n, 2));
+	else if (n < 0)
+		return (-1);
+	else
+		return (calc(n, 1));
 }
