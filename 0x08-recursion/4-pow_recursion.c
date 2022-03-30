@@ -3,6 +3,7 @@
 * _pow_recursion - Function that returns the value of x to the power of y.
 * @x: the value to multiply
 * @y: the times to multiply the value
+* Return: the value multiplied y times
 */
 int _pow_recursion(int x, int y)
 {
