@@ -5,7 +5,7 @@
 * @s2: string 2
 * Return: 0 or 1 if equal
 */
-int wildcmp(char *s1, char *s2
+int wildcmp(char *s1, char *s2)
 {
 	/* base case */
 	if (!*s1  &&  !*s2) /* s1 when is == '\0' && s2 when == '\0' */
