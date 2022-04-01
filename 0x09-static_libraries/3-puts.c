@@ -5,6 +5,7 @@
 * Description: Can only use _putchar
 *Return: Nothing
 */
+
 void _puts(char *str)
 {
 	int i;
