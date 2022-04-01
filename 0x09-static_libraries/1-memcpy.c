@@ -3,7 +3,7 @@
 * *_memcpy - copies memory area
 *@dest: destination to copy
 *@src: source pointer
-*@n: number of bytes to coppy
+*@n: number of bytes to copy
 *Return: dest (destination)
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
