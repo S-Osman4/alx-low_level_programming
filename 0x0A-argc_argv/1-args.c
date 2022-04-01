@@ -3,6 +3,7 @@
 /**
 * main - A program that prints the number of arguements you passed into it
 * @argv: An argument values
+* @argc: counter of arguments
 * Return: Always 0 (Success)
 */
 int main(int argc, char *argv[])
