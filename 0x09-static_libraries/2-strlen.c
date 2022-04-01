@@ -4,7 +4,6 @@
 * @s: char type pointer
 *Return: the length of a string
 */
-
 int _strlen(char *s)
 {
 	int len;
