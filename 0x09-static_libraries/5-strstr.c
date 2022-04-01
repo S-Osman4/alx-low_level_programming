@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strstr - find substring in string
- * @haystack: where find
- * @needle: to find
- * Return: start first match
- */
+* _strstr - find substring in string
+* @haystack: where find
+* @needle: to find
+* Return: start first match
+*/
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0, j;
