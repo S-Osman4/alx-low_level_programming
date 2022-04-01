@@ -2,9 +2,9 @@
 /**
 * _atoi - convert a string to an integer.
 * @s: the string to be comverted
-*Return: 0
+*Return: integer
 */
 int _atoi(char *s)
 {
-	return (0);
+	return (*s);
 }
