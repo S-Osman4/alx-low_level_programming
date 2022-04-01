@@ -33,7 +33,12 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
+<<<<<<< HEAD
 
 char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
+=======
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle); 
+>>>>>>> 808181b8878d47ff83f5cce62e2db60bb7bfea06
