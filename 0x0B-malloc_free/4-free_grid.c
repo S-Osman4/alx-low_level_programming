@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* free_grid - free the 2 dimensional array of int using alloc_grid
+* free_grid - free the 2-d array of int created by alloc_grid
 * @height: type int height.
 * @grid: type int char
 * Return: Null if 0 or negative.
@@ -13,5 +13,5 @@ void free_grid(int **grid, int height)
 
 	for (i = 0; i < height; i++)
 		free(grid[i]);
-	free(grid);free(grid);
+	free(grid);
 }
