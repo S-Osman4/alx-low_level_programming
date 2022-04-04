@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* alloc_grid - returns a pointer to a 2 dimensional array of integer* @width: type int width.
+* alloc_grid - returns a pointer to a 2 dimensional array of integers
+* @width: type int width.
 * @height: type int height.
 * Return: Null if 0 or negative.
 */
