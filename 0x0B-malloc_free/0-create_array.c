@@ -1,10 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-/**
-#include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 /**
 * create_array - create new array and fill with c char
 *  @size:  size of the array
