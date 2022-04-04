@@ -1,4 +1,4 @@
-## More arrays, pointers and strings
+## 0x00. C - Hello, World
 
 Mandatory tasks
 |  Files |  Descripton |
