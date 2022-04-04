@@ -12,7 +12,7 @@ Mandatory tasks
 | [7-print_chessboard.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/7-print_chessboard.c) | Function that prints the chessboard. |
 | [8-print_diagsums.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/8-print_diagsums.c) | Function that prints the sum of the two diagonals of a square matrix of integers. |
 
-Optional Tasks
+Advanced Tasks
 |  Files |  Descripton |
 |:-:|---|
 |  100-set_string.c |  Function that sets the value of a pointer to a char. |
