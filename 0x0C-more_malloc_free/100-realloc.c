@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* _realloc - function that reallocates a memory block using malloc and* @ptr: ptr to memory space
+* _realloc - reallocates a memory block  using malloc and free
 * @old_size: old memory size
 * @new_size: new memory size
 * Return: pointer to new sized memory allocat
 */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	unsigned int x;
 	char *p;
 	unsigned int i, max = new_size;
 	char *oldp = ptr;
