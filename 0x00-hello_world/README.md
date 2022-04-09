@@ -18,3 +18,7 @@ Advanced Tasks
 |  [100-intel](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)|  A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. |
 |  [101-quote.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c) |  a C program that prints exactly <code>and that piece of art is useful" - Dora Korpar, 2015-10-19</code>, followed by a new line, to the standard error. |
 
+
+  ## Author
+  
+  :octocat: [Shamso Osman]()
