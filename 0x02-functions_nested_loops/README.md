@@ -1,22 +1,28 @@
-## 0x00. C - Hello, World
+## 0x02. C - Functions, nested loops
 
 Mandatory tasks
 |  Files |  Descripton |
 |:-:|---|
-|  [0-preprocessor](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor) |  A script that runs a C file through the preprocessor and save the result into another file.  |
-|  [1-compiler](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/1-compiler) | A script that compiles a C file but does not link. |
-| [2-assembler](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/2-assembler)  | A script that generates the assembly code of a C code and save it in an output file.  |
-| [3-name](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/3-name)  | A script that compiles a C file and creates an executable named <code>cisfun<code>.  |
-|  [4-puts.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c) | A C program that prints exactly <code>"Programming is like building a multilingual puzzle,</code> followed by a new line.  |
-|  [5-printf.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c) | A C program that prints exactly <code>with proper grammar, but the outcome is a piece of art,</code>, followed by a new line.|
-| [6-size.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c) | A C program that prints the size of various types on the computer it is compiled and run on. |
+|  [0-putchar.c]() |  program that prints <em>_putchar</em>, followed by a new line.  |
+|  [1-alphabet.c]() |  A function that prints the alphabet, in lowercase, followed by a new line. |
+| [2-print_alphabet_x10.c]()  | A function that prints 10 times the alphabet, in lowercase, followed by a new line.  |
+| [3-islower.c]()  | A function that checks for lowercase character  |
+|  [4-isalpha.c]() | A function that checks for alphabetic character.  |
+|  [5-sign.c]() | A function that prints the sign of a number.|
+| [6-abs.c]() | A function that computes the absolute value of an integer. |
+| [7-print_last_digit.c]() | A function that prints the last digit of a number. |
+| [8-24_hours.c]() | A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. |
+| [9-times_table.c]) | A function that prints the 9 times table, starting with 0. |
+| [10-add.c]) | A function that adds two integers and returns the result. |
+| [11-print_to_98.c]) | A function that prints all natural numbers from n to 98, followed by a new line. |
 
 
 Advanced Tasks
 |  Files |  Descripton |
 |:-:|---|
-|  [100-intel](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/100-intel)|  A script that generates the assembly code (Intel syntax) of a C code and save it in an output file. |
-|  [101-quote.c](https://github.com/S-Osman4/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c) |  a C program that prints exactly <code>and that piece of art is useful" - Dora Korpar, 2015-10-19</code>, followed by a new line, to the standard error. |
+|  [100-times_table.c]()|  Afunction that prints the n times table, starting with 0. |
+|  [101-print_comb4.c]() |  A program that prints all possible different combinations of three digits. |
+|  [102-print_comb5.c]() |  A 102-print_comb5.c |
 
 
   ## Author
