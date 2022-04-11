@@ -3,6 +3,7 @@
 #include <stdlib.h>
 /**
 * new_dog - Function that creates a new dog.
+* @struct : new dog
 * @name: type pointer char name.
 * @age: type pointer float age
 * @owner: type pointer char owner
