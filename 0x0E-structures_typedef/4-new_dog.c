@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
 * new_dog - Function that creates a new dog.
-* @struct dog: new dog
+* 
 * @name: type pointer char name.
 * @age: type pointer float age
 * @owner: type pointer char owner
@@ -11,7 +11,7 @@
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	struct dog *new_doggo
+	struct dog *new_doggo;
 	char *i, *j;
 	int x, y, z;
 
