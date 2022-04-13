@@ -5,3 +5,4 @@ void array_iterator(int *, size_t, void (*)(int));
 int int_index(int *, int, int (*)(int));
 int valid_operator(char *);
 int to_int(char *);
+#include <stddef.h>
