@@ -1,8 +1,6 @@
 #include "function_pointers.h"
 /**
 * print_name - prints a name
-
-[A*
 * @name: input name
 * @f: function pointer
 * Return: no return
