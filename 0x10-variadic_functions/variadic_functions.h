@@ -6,12 +6,11 @@
 
 /**
 * struct print - search the func for print_all
-* @c: character to match
-* @f: function for that character.
+* @symbol: character to match
+* @print: function for that character.
 */
 
-typedef struct printer{
-  
+typedef struct printer{  
   char *symbol;
   void (*print)(va_list arg);
 } printer_t;
