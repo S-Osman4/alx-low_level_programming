@@ -4,10 +4,16 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-typedef struct printer{
+/**
+* struct print - search the func for print_all
+* @c: character to match
+* @f: function for that character.
+*/
 
-char *symbol;
-void (*print)(va_list arg);
+typedef struct printer{
+  
+  char *symbol;
+  void (*print)(va_list arg);
 } printer_t;
 
 int sum_them_all(const unsigned int n, ...);
