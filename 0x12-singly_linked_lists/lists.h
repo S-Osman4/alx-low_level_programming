@@ -29,5 +29,7 @@ void free_list(list_t *head);
 void before_main(void)__attribute__((constructor));
 
 int _putchar(char c);
+int _strlen(char *s);
+
 
 #endif
