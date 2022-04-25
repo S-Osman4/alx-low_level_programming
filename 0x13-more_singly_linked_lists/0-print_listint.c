@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "lists.h"
 /**
 * print_listint - main function
@@ -19,6 +18,4 @@ size_t print_listint(const listint_t *h)
 	}
 	return (i);
 }
-=======
 
->>>>>>> 8ef213be1e265696d4dec63aa97ed2bf8ba37d00
