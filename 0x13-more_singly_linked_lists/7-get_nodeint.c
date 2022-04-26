@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
 * get_nodeint_at_index - find node by index
 * @head: Linked list
