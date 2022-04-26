@@ -1,7 +1,7 @@
 /**
 * get_nodeint_at_index - find node by index
 * @head: Linked list
-* @index: index of the node to be finded
+* @index: index of the node to be found
 * Return: listint_t node with this index
 */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
