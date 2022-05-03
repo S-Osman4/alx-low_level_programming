@@ -1,4 +1,13 @@
-## 0x00. C - Hello, World
+# 0x09.C - Static libraries
+
+Project involves working with static libraries in C
+
+## Technologies used
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
+
+## Files
+All of the following files are scripts and programs written in C:
 
 Mandatory tasks
 |  Files |  Descripton |
