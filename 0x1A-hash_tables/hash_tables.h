@@ -47,7 +47,7 @@ typedef struct hash_table_s
  * @snext: A pointer to the next element of the sorted linked list
  */
 typedef struct shash_node_s
-{	
+{
 	char *key;
 	char *value;
 	struct shash_node_s *next;
