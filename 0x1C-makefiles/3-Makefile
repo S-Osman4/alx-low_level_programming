@@ -3,7 +3,6 @@
 # OBJ: the .o files
 # NAME: the name of the executable
 # RM: the program to delete files
-# patsubst: Acts as a wildcard replacing the text.
 # all: builds your executable
 # clean: deletes all Emacs and Vim temporary files along with the executable
 # oclean: deletes the object files
