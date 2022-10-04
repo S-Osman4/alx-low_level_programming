@@ -1,5 +1,4 @@
 #include "search_algos.h"
-
 /**
 * linear_search - Function that seaches for a value in an array of integers
 * using Linear search
@@ -13,7 +12,7 @@ int linear_search(int *array, size_t size, int value)
 {
 	size_t i = 0;
 
-	if (array == NULL)
+	if (array == NULL)		
 		return (-1);
 
 	for (i = 0; i < size; i++)
